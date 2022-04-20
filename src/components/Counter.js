@@ -17,7 +17,7 @@ function Counter() {
         <h1>{countValue}</h1>
         <button onClick={()=> dispatch(decrement())}>Decrement -1</button>
         <button onClick={()=> dispatch(increment())}>Increment +1</button>
-        <button onClick={()=> dispatch(icrementByAmount(3))}>Increment +3</button>
+        <button onClick={()=> dispatch(icrementByAmount(5))}>Increment +5</button>
     </div>
   )
 }
